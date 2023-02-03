@@ -1,52 +1,58 @@
-.main-container {
-  margin: 20px;
+/* font-family: 'Special Elite', cursive; */
+
+* {
+  color: rgba(21, 21, 20, 0.825);
 }
+
 .main-container > div {
-  border: 2px solid blue;
-  height: 50%;
-  width: 100%;
+  border: 1px solid rgb(242, 240, 236)
 }
 
 .upper-container {
-  background-color: rgb(43, 206, 193);
+  background-image: url(./bg-texture.jpg);
   text-align: center;
+  height: 40%;
+  width: 100%;
 }
 
+
 .lower-container {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(242, 240, 236);
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  height: 60%;
+  width: 100%;
 }
 
 .lower-children {
-  border: 2px solid red;
   width: 20%;
   height: 70%;
   margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
+  overflow:hidden;
 }
 
 .head-boards {
-  border: 1px solid purple;
   height: 55px;
 }
 
 #a {
-  background-color: aqua;
+  background-color: #EBBA6D;
 }
 
 #b {
-  background-color: blanchedalmond;
+  background-color: #6B6151;
 }
 
 #c {
-  background-color: brown;
+  background-color: #B89254;
 }
+
 #header {
-  font-size: 65px;
-  margin-top: 8.5%;
+  font-size: 35px;
+  margin-top: 15%;
 }
 
 .title {
@@ -55,24 +61,33 @@
 }
 
 h1 {
-  color: white;
+  font-family: 'Special Elite', cursive;
+  
 }
 
 p {
-  color: white;
+  font-family: 'Inconsolata', monospace;
   font-size: 20px;
   text-align: center;
 }
 
 @media (max-width: 598px) {
-
   #header {
-    font-size: 60px;
-    margin-top: 5%;
+    font-size: 25px;
+    margin-top: 57%;
+    margin-left: 55%;
   }
 
   .main-container {
     height: fit-content;
+  }
+
+  .upper-container {
+    background-image: url(./bg-texture-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
   }
 
   .lower-container {
@@ -82,7 +97,24 @@ p {
   }
 
   .lower-children {
-    border: 2px solid rgb(0, 255, 247);
+    padding: 50px;
     width: 90%;
+    height: 300px;
+  }
+
+  #a {
+    background-color: #F3C69E;
+  }
+  
+  #b {
+    background-color: #F4A056;
+  }
+  
+  #c {
+    background-color: #BF9C7C;
+  }
+
+  p {
+    padding: 10px;
   }
 }
