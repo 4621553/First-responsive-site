@@ -1,11 +1,11 @@
 /* font-family: 'Special Elite', cursive; */
 
 * {
-  color: rgba(21, 21, 20, 0.825);
+  color: rgba(51, 50, 45, 0.825);
 }
 
 .main-container > div {
-  border: 1px solid rgb(242, 240, 236)
+  border: 1px solid rgb(246, 245, 245)
 }
 
 .upper-container {
@@ -17,7 +17,7 @@
 
 
 .lower-container {
-  background-color: rgb(242, 240, 236);
+  background-color: rgb(246, 245, 245);
   display: flex;
   justify-content: center;
   align-items: center;
